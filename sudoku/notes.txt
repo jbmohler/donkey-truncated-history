@@ -1,0 +1,11 @@
+I was reminded of this game by a Moravian Student Math conference talk using a
+linear programming problem to solve sudoku.
+
+Note that version 5 has a post fix_point hunk of code that is not so hot with
+the data structures as they are.  It's next point chooser also would benefit
+from another data structure.  The timing bears out that a data structure change
+might be a good idea -- the algorithm appears solid for hard puzzles, but it's
+not so great for easy puzzles.
+
+The wikipedia article at http://en.wikipedia.org/wiki/Algorithmics_of_sudoku
+has some nice example difficult games.
